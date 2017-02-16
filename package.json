@@ -17,7 +17,7 @@
     "markdown-it-sub": "^1.0.0",
     "object-assign": "^4.1.0",
     "react-helmet": "^3.2.2",
-    "toml-js": "0.0.8",
+    "toml-js": "0.0.8"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"
