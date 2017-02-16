@@ -4,11 +4,17 @@ import { Link } from 'react-router';
 
 export default class ProjectCard extends Component {
 	render() {
-		const { title, description, projectLink, pageLink, image } = this.props;
+		let d;
+		const { title, description, projectLink, pageLink, icon } = this.props;
+		console.log(icon);
+		if(typeof icon === 'string') d = <img src={icon ? prefixLink('/assets/'+icon) : 'https://unsplash.it/130/130?random'} alt="Icon for project" className="project-img"/>
+		else d = icon;
 		return (
 			<div className="project-card">
 				<div className="project-card-section-img">
-					<img src={image ? prefixLink('/assets/'+image) : 'https://unsplash.it/130/130?random'} alt="Icon for project" className="project-img"/>
+					<a href={projectLink || pageLink || '#'}>
+						{d}
+					</a>
 				</div>
 				<div className="project-card-section-main">
 					<a href={projectLink || pageLink || '#'} className="project-title">{title}</a>
@@ -24,5 +30,8 @@ ProjectCard.propTypes = {
 	description:PropTypes.string,
 	projectLink:PropTypes.string,
 	pageLink:PropTypes.string,
-	image:PropTypes.string
+	icon:PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.element
+	])
 }

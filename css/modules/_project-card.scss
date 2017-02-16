@@ -25,6 +25,13 @@
 .project-card-section-img {
 	display: flex;
 	align-items: center;
+	svg {
+		width: 150px;
+	}
+}
+
+.project-icon-svg {
+	fill: $primary-color;
 }
 
 .project-title {
@@ -33,8 +40,9 @@
 }
 
 .project-img {
-	width: 130px;
-	height: 130px;
+	max-width: 130px;
+	// height: 130px;
+	min-width: 100%;
 }
 
 .project-description {

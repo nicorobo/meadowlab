@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
             description={p.description}
             projectLink={p.projectLink}
             pageLink={p.pageLink}
-            image={p.image}
+            icon={p.icon}
             />)
           }
         </div>
