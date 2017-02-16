@@ -6,13 +6,13 @@ export default class ProjectCard extends Component {
 	render() {
 		const { title, description, projectLink, pageLink, image } = this.props;
 		return (
-			<div className="work-card">
-				<div className="work-card-section-img">
-					<div className="work-img"></div>
+			<div className="project-card">
+				<div className="project-card-section-img">
+					<div className="project-img"></div>
 				</div>
-				<div className="work-card-section-main">
-					<a href={projectLink || pageLink || '#'} className="work-title">{title}</a>
-					<p className="work-description">{description || ''}</p>
+				<div className="project-card-section-main">
+					<a href={projectLink || pageLink || '#'} className="project-title">{title}</a>
+					<p className="project-description">{description || ''}</p>
 				</div>
 			</div>
 		)

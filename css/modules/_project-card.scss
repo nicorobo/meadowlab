@@ -1,4 +1,4 @@
-.work-card {
+.project-card {
 	display: flex;
 	margin: 0 15% 5% 15%;
 	&:last-child {
@@ -11,7 +11,7 @@
 	}
 }
 
-.work-card-section-main {
+.project-card-section-main {
 	display: flex;
 	padding-left: 15px;
 	flex-direction: column;
@@ -22,22 +22,22 @@
 	}
 }
 
-.work-card-section-img {
+.project-card-section-img {
 	display: flex;
 	align-items: center;
 }
 
-.work-title {
+.project-title {
 	font-size: 2rem;
 	text-decoration: none;
 }
 
-.work-img {
+.project-img {
 	width: 130px;
 	height: 130px;
 	background: transparentize($primary-color, 0.7);
 }
 
-.work-description {
+.project-description {
 	margin-bottom: 0;
 }
