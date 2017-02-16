@@ -8,7 +8,7 @@ export default class ProjectCard extends Component {
 		return (
 			<div className="project-card">
 				<div className="project-card-section-img">
-					<div className="project-img"></div>
+					<img src={image ? prefixLink('/assets/'+image) : 'https://unsplash.it/130/130?random'} alt="Icon for project" className="project-img"/>
 				</div>
 				<div className="project-card-section-main">
 					<a href={projectLink || pageLink || '#'} className="project-title">{title}</a>

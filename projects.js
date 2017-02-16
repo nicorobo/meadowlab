@@ -4,7 +4,7 @@ const projects = [
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'http://elementcalc.me/',
 		pageLink: null,
-		image: null
+		image: 'elementcalc-icon-v3.png'
 	},
 	{
 		title: 'Thoughtjar',
