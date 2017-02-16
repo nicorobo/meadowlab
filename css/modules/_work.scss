@@ -1,0 +1,43 @@
+.work-card {
+	display: flex;
+	margin: 0 15% 5% 15%;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	@media($bp-smaller-than-phablet) {
+		flex-direction: column;
+		align-items: center;
+		margin: 0 5% 10% 5%;
+	}
+}
+
+.work-card-section-main {
+	display: flex;
+	padding-left: 15px;
+	flex-direction: column;
+	justify-content: center;
+	@media($bp-smaller-than-phablet) {
+		align-items: center;
+		padding-left: 0;
+	}
+}
+
+.work-card-section-img {
+	display: flex;
+	align-items: center;
+}
+
+.work-title {
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+.work-img {
+	width: 130px;
+	height: 130px;
+	background: transparentize($primary-color, 0.7);
+}
+
+.work-description {
+	margin-bottom: 0;
+}

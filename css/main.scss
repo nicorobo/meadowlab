@@ -1,0 +1,21 @@
+@import 'skeleton/skeleton.scss'; // Imports our normalize.scss and variables.scss for free...
+@import 'base/utility.scss';
+
+@import 'modules/nav.scss';
+@import 'modules/page-header.scss';
+@import 'modules/work.scss';
+@import 'modules/contact-form.scss';
+@import 'modules/contact-reports.scss';
+@import 'modules/footer.scss';
+
+html { height: 100%; }
+
+.container-main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.content {
+	flex: 1
+}

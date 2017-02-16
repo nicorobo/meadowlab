@@ -1,0 +1,26 @@
+/* Contact Form */
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact-form-label {
+	width: 350px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	@media(max-width: 400px) {
+		width: 100%;
+	}
+}
+.contact-form-control {
+	display: block;
+}
+
+.contact-form-project {
+	height: 5rem;
+}
+
+.contact-form input[type="submit"]:hover {
+	background: darken($primary-color, 3%)
+}

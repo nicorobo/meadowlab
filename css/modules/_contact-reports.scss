@@ -1,0 +1,28 @@
+.status-icon-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+.status-icon {
+	padding: 1.5em;
+	height: 75px;
+	width: 75px;
+	display: flex;
+	border-radius: 50%;
+	img {
+		max-width: 100%;
+	}
+}
+.contact-error .status-icon {
+	background: #ba5f5f;
+}
+.contact-success .status-icon {
+	background: #5FBA7D;
+}
+.contact-status {
+	font-weight: 500;
+}
+.contact-report {
+	text-align: center;
+	margin-top: 10%;
+}

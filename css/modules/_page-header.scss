@@ -1,0 +1,10 @@
+.page-header {
+	padding: 3rem;
+	text-align: center;
+	@media($bp-smaller-than-phablet) {
+		padding: 2rem 1rem;
+	}
+}
+.page-header-title {
+	margin-bottom: 1rem;
+}

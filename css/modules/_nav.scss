@@ -1,0 +1,44 @@
+.site-nav {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1em;
+	align-items: center;
+	@media($bp-smaller-than-phablet) {
+		flex-direction: column;
+	}
+}
+
+.nav-brand {
+	font-size: 2.5rem;
+	font-weight: 300;
+	text-decoration: none;
+	color: #333;
+	span {
+		font-weight: 600;
+		color: $primary-color;
+	}
+}
+
+.nav-link-list {
+	margin-bottom: 0;
+}
+
+.nav-link {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 0;
+	font-weight: 300;
+	&:last-child {
+		margin-right: 0;
+	}
+	a {
+		text-decoration: none; 
+	}
+	a.active {
+		font-weight: 600;
+	}
+}
+
+@media($bp-smaller-than-phablet) {
+
+}
