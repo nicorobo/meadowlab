@@ -8,7 +8,6 @@ import ProjectCard from '../components/ProjectCard'
 
 export default class Projects extends React.Component {
   render () {
-    console.log(projects);
     return (
       <div>
         <Helmet
