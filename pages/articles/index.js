@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-// import ArticleCard from '../../components/ArticleCard.js';
+import ArticleCard from '../../components/ArticleCard.js';
 
 export default class Articles extends React.Component {
   getArticles() {
@@ -25,6 +25,15 @@ export default class Articles extends React.Component {
         <div className="page-header">
           <h2 className="page-header-title">Articles</h2>
           <div className="page-header-description">Coming soon, stay tuned!</div>
+        </div>
+        <div className="article-gallery">
+          {articles.map(a => <ArticleCard
+            key={a.data.date}
+            title={a.data.title}
+            date={a.data.date}
+            description={a.data.description}
+            path={a.path}
+          />)}
         </div>
       </div>
     )
