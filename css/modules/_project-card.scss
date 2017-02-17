@@ -23,7 +23,6 @@
 	fill: $primary-color;
 }
 
-
 .project-card-section-main {
 	display: flex;
 	padding-left: 15px;
@@ -61,4 +60,23 @@
 
 .project-description {
 	margin-bottom: 0;
+}
+
+
+@for $i from 1 through $number-of-projects {
+	$c: mix($project-color-end, $project-color-start, ($i - 1) / ($number-of-projects - 1) * 100);
+	.project-card:nth-child(#{$i}) {
+
+		.project-icon-svg {
+			fill: $c;
+		}
+
+		a {
+			color: $c;
+			&:hover {
+				color: darken($c, 10%);
+			}
+		}
+		
+	}
 }

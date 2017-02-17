@@ -17,11 +17,16 @@ $bp-smaller-than-desktophd : "max-width: 1200px" !default;
 // Colors
 $light-grey: #e1e1e1 !default;
 $dark-grey: #333 !default;
-$primary-color: #227FBB !default;
+$primary-color: #9D50BB !default;
 $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $link-color: $primary-color !default;
 $font-color: #444 !default;
+
+// Project Page
+$number-of-projects: 3;
+$project-color-start: $primary-color;
+$project-color-end: #ffd194;
 
 // Typography
 $font-family: Avenir, 'Muli', sans-serif !default;
