@@ -31,7 +31,7 @@ module.exports = React.createClass({
           {head.title.toComponent()}
           {head.meta.toComponent()}
           {css}
-          <link href="https://fonts.googleapis.com/css?family=Muli:300,400,900" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Muli:300,400,900" rel="stylesheet"/>
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
