@@ -11,7 +11,7 @@ export default class Articles extends React.Component {
   }
 
   render () {
-    const articles = this.getArticles();
+    const articles = this.getArticles().sort((a, b) => b.data.date - a.data.date);
     return (
       <div>
         <Helmet
