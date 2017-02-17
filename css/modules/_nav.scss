@@ -10,11 +10,11 @@
 
 .nav-brand {
 	font-size: 2.5rem;
-	font-weight: 300;
+	font-weight: lighter;
 	text-decoration: none;
 	color: #333;
 	span {
-		font-weight: 600;
+		font-weight: bold;
 		color: $primary-color;
 	}
 }
@@ -27,7 +27,7 @@
 	display: inline-block;
 	margin-right: 20px;
 	margin-bottom: 0;
-	font-weight: 300;
+	font-weight: lighter;
 	&:last-child {
 		margin-right: 0;
 	}
@@ -35,7 +35,7 @@
 		text-decoration: none; 
 	}
 	a.active {
-		font-weight: 600;
+		font-weight: bold;
 	}
 }
 

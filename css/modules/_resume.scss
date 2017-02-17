@@ -41,7 +41,7 @@
 
 	.section-header {
 		display: flex;
-		font-weight: 300;
+		font-weight: lighter;
 	}
 
 	.header-left {
@@ -51,7 +51,7 @@
 
 	.section-title {
 		font-size: 2rem;
-		font-weight: 600;
+		font-weight: bold;
 		color: $primary-color;
 	}
 
@@ -60,7 +60,7 @@
 	}
 
 	.subsection-title {
-	    font-weight: 600;
+	    font-weight: bold;
 	    margin-right: 1rem;
 	}
 
