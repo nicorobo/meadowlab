@@ -10,12 +10,12 @@ export default class ArticleCard extends Component {
 			<div className="article-card">
 				<div className="article-card-header">
 					<Link className="article-title" to={prefixLink(path)}>{title}</Link>
+					<div className="article-date">{moment(date).format('MMMM DD, YYYY')}</div>
 				</div>
 				<div className="article-card-body">
 					<p className="article-description">{description}</p>
 				</div>
 				<div className="article-card-footer">
-					<div className="article-date">{moment(date).format('MMMM DD, YYYY')}</div>
 				</div>
 			</div>
 		)

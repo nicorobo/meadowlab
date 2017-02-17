@@ -8,15 +8,21 @@
 	padding: 0 1rem;
 	box-sizing: border-box;
 	&:not(:last-child) {
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 	@media($bp-smaller-than-phablet) {
 		width: 100%
 	}
 }
+.article-card-header {
+	display: flex;
+	align-items: center;
+}
 .article-title {
+	flex: 1;
 	font-size: 2rem;
 	font-weight: 500;
+	line-height: 1.2;
 	text-decoration: none;
 }
 .article-card-footer {
