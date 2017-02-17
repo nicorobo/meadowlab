@@ -4,8 +4,11 @@
 	}
 
 	a {
-		color: #222;
+		color: #444;
 		text-decoration: none;
+		&:hover {
+			color: $primary-color;
+		}
 	}
 
 	header {
