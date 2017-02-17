@@ -11,7 +11,7 @@ export default class Nav extends Component {
 					<li className="nav-link"><IndexLink activeClassName='active' to={prefixLink('/')}>Home</IndexLink></li>
 					<li className="nav-link"><Link activeClassName='active' to={prefixLink('/projects/')}>Projects</Link></li>
 					<li className="nav-link"><Link activeClassName='active' to={prefixLink('/articles/')}>Articles</Link></li>
-					<li className="nav-link"><Link activeClassName='active' to={prefixLink('/contact/')}>Contact</Link></li>
+					<li className="nav-link"><Link activeClassName='active' to={prefixLink('/resume/')}>Resume</Link></li>
 				</ul>
 			</nav>
 		)

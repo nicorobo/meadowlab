@@ -17,8 +17,8 @@ export default class ProjectCard extends Component {
 					<p className="project-description">{description || ''}</p>
 					<div className="project-card-footer">
 						{[
-							(pageLink ? <Link className="project-card-footer-link" to={prefixLink(pageLink)}>Article</Link> : null),
-							(gitLink ? <a className="project-card-footer-link" href={gitLink} target="_blank">Github</a> : null)
+							(pageLink ? <Link key="article" className="project-card-footer-link" to={prefixLink(pageLink)}>Article</Link> : null),
+							(gitLink ? <a key="git" className="project-card-footer-link" href={gitLink} target="_blank">Github</a> : null)
 							
 						]}
 					</div>
