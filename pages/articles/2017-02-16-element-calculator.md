@@ -1,6 +1,7 @@
 ---
 title: Element Calculator
 path: /articles/element-calculator/
+type: article
 ---
 # Element Calculator
 

@@ -3,9 +3,16 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
+// import ArticleCard from '../../components/ArticleCard.js';
 
 export default class Articles extends React.Component {
+  getArticles() {
+    return this.props.route.pages.filter(p => p.data && p.data.type && p.data.type === 'article');
+  }
+
   render () {
+    const articles = this.getArticles();
+    console.log(articles);
     return (
       <div>
         <Helmet
