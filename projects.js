@@ -1,6 +1,6 @@
 import React from 'react'
 import { IconElements, IconThoughts, IconLocation } from './components/Icons'
-const color = true;
+const color = false;
 
 const projects = [
 	{
@@ -8,6 +8,7 @@ const projects = [
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'http://elementcalc.me/',
 		pageLink: null,
+		gitLink: null,
 		icon: <IconElements color={color}/>
 	},
 	{
@@ -15,6 +16,7 @@ const projects = [
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'https://nickroberts404.github.io/thoughtjar/',
 		pageLink: null,
+		gitLink: 'https://github.com/nickroberts404/thoughtjar',
 		icon: <IconThoughts color={color}/>,
 	},
 	{
@@ -22,6 +24,7 @@ const projects = [
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'https://github.com/nickroberts404/location-data-generator',
 		pageLink: null,
+		gitLink: 'https://github.com/nickroberts404/location-data-generator',
 		icon: <IconLocation color={color}/>
 	}
 ]
