@@ -14,7 +14,7 @@ export default class ProjectCard extends Component {
 				</div>
 				<div className="project-card-section-main">
 					<a className="project-title" href={projectLink || pageLink || '#'} target="_blank">{title}</a>
-					<p className="project-description">{description || ''}</p>
+					<p className="project-description" dangerouslySetInnerHTML={{ __html: (description || '') }}></p>
 					<div className="project-card-footer">
 						{[
 							(pageLink ? <Link key="article" className="project-card-footer-link" to={prefixLink(pageLink)}>Article</Link> : null),

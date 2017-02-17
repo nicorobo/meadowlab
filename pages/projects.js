@@ -19,7 +19,7 @@ export default class Projects extends React.Component {
         />
         <div className="page-header">
           <h2 className="page-header-title">Projects</h2>
-          <div className="page-header-description">These are some of my past and ongoing projects.</div>
+          <div className="page-header-description">A few of my past and ongoing projects.</div>
         </div>
         <div className="work-gallery">
           {projects.map(p => <ProjectCard

@@ -5,7 +5,7 @@ const color = false;
 const projects = [
 	{
 		title: 'Element Calculator',
-		description: 'This is a very futuristic project, it may take a couple years to catch on.',
+		description: 'An interactive, responsive periodic table that functions as a molecular mass calculator.',
 		projectLink: 'http://elementcalc.me/',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/element-calc',
@@ -13,7 +13,7 @@ const projects = [
 	},
 	{
 		title: 'Thoughtjar',
-		description: 'This is a very futuristic project, it may take a couple years to catch on.',
+		description: 'A tool for organizing thoughts and ideas into categories, storing them in the browser for offline use.',
 		projectLink: 'https://nickroberts404.github.io/thoughtjar/',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/thoughtjar',
@@ -21,7 +21,7 @@ const projects = [
 	},
 	{
 		title: 'Location Data Mocker',
-		description: 'This is a very futuristic project, it may take a couple years to catch on.',
+		description: 'An npm tool that generates and serves mock location data via HTTP. It also provides a map interface to visualize/edit data.',
 		projectLink: 'https://github.com/nickroberts404/location-data-generator',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/location-data-generator',
