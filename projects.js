@@ -15,7 +15,7 @@ const projects = [
 		title: 'Thoughtjar',
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'https://nickroberts404.github.io/thoughtjar/',
-		pageLink: null,
+		pageLink: '/articles/thoughtjar/',
 		gitLink: 'https://github.com/nickroberts404/thoughtjar',
 		icon: <IconThoughts color={color}/>,
 	},

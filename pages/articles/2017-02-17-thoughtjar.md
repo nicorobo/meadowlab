@@ -1,8 +1,8 @@
 ---
-title: Element Calculator
+title: Thoughtjar
 description: Oh yes, get ready for some sweet, sweet words.
-date: 1487353887362
-path: /articles/element-calculator/
+date: 1487353897362
+path: /articles/thoughtjar/
 type: article
 ---
 

@@ -12,7 +12,6 @@ export default class Articles extends React.Component {
 
   render () {
     const articles = this.getArticles();
-    console.log(articles);
     return (
       <div>
         <Helmet

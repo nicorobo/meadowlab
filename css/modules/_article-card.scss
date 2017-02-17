@@ -1,0 +1,32 @@
+.article-gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.article-card {
+	width: 550px;
+	padding: 0 1rem;
+	box-sizing: border-box;
+	&:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+	@media($bp-smaller-than-phablet) {
+		width: 100%
+	}
+}
+.article-title {
+	font-size: 2rem;
+	font-weight: 500;
+	text-decoration: none;
+}
+.article-card-footer {
+	display: flex;
+	justify-content: flex-end;
+}
+.article-description {
+	margin-bottom: 0;
+}
+.article-date {
+	font-size: 1.3rem;
+	color: #555;
+}
