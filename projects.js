@@ -7,8 +7,8 @@ const projects = [
 		title: 'Element Calculator',
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'http://elementcalc.me/',
-		pageLink: null,
-		gitLink: null,
+		pageLink: '/articles/element-calculator/',
+		gitLink: 'https://github.com/nickroberts404/element-calc',
 		icon: <IconElements color={color}/>
 	},
 	{

@@ -48,10 +48,14 @@
 }
 
 .project-card-footer-link {
+	margin-right: 0.6rem;
 	text-decoration: none;
 	opacity: 0.7;
 	&:hover {
 		opacity: 1;
+	}
+	&:last-child {
+		margin-right: 0;
 	}
 }
 
