@@ -24,7 +24,7 @@ export default class Articles extends React.Component {
         />
         <div className="page-header">
           <h2 className="page-header-title">Articles</h2>
-          <div className="page-header-description">Coming soon, stay tuned!</div>
+          {(articles.length < 1 ? <div className="page-header-description">Coming soon, stay tuned!</div> : null)}
         </div>
         <div className="article-gallery">
           {articles.map(a => <ArticleCard
