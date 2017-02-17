@@ -7,7 +7,7 @@ const projects = [
 		title: 'Element Calculator',
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'http://elementcalc.me/',
-		pageLink: '/articles/element-calculator/',
+		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/element-calc',
 		icon: <IconElements color={color}/>
 	},
@@ -15,7 +15,7 @@ const projects = [
 		title: 'Thoughtjar',
 		description: 'This is a very futuristic project, it may take a couple years to catch on.',
 		projectLink: 'https://nickroberts404.github.io/thoughtjar/',
-		pageLink: '/articles/thoughtjar/',
+		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/thoughtjar',
 		icon: <IconThoughts color={color}/>,
 	},
