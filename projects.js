@@ -14,7 +14,7 @@ const projects = [
 	{
 		title: 'Thoughtjar',
 		description: 'A tool for organizing thoughts and ideas into categories, storing them in the browser for offline use.',
-		projectLink: 'https://nickroberts404.github.io/thoughtjar/',
+		projectLink: 'http://thoughtjar.co/',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/thoughtjar',
 		icon: <IconThoughts color={color}/>,

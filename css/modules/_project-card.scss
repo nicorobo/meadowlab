@@ -64,7 +64,7 @@
 
 
 @for $i from 1 through $number-of-projects {
-	$c: mix($project-color-end, $project-color-start, ($i - 1) / ($number-of-projects - 1) * 100);
+	$c: mix($g-end, $g-start, ($i - 1) / ($number-of-projects - 1) * 100);
 	.project-card:nth-child(#{$i}) {
 
 		.project-icon-svg {
