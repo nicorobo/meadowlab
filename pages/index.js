@@ -17,7 +17,7 @@ export default class Index extends React.Component {
         />
         <div className="page-header">
           <h2 className="page-header-title">Home</h2>
-          <div className="page-header-description">Hey, welcome home!</div>
+          <div className="page-header-description">Hey, welcome home! This site is still in progress but should be ready soon!</div>
         </div>
       </div>
     )
