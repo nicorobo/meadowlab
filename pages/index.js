@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
+import PhotoCollage from '../components/PhotoCollage'
 
 export default class Index extends React.Component {
   render () {
@@ -16,9 +17,16 @@ export default class Index extends React.Component {
           ]}
         />
         <div className="page-header">
-          <h2 className="page-header-title">Home</h2>
-          <div className="page-header-description">Hey, welcome home! This site is still in progress but should be ready soon!</div>
+          <h2 className="page-header-title">Hi, I'm Nick!</h2>
+          <p className="intro">I'm a software developer that loves building web apps :3! </p>
         </div>
+        <PhotoCollage photos={[
+          './img/mexico.jpg',
+          './img/halfdome.jpg',
+          './img/meadow.jpg',
+          './img/jtree.jpg',
+          './img/shadow.jpg'
+        ]} />
       </div>
     )
   }
