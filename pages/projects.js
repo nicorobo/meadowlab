@@ -13,8 +13,11 @@ export default class Projects extends React.Component {
         <Helmet
           title="Projects"
           meta={[
-            {"name": "description", "content": "Sample"},
-            {"name": "keywords", "content": "sample, something"},
+            {"name": "description", "content": "A few of my past and ongoing projects."},
+            {"name": "keywords", "content": "projects"},
+            {"name": "og:title", "content": "meadowlab's Projects"},
+            {"name": "og:url", "content": "http://meadowlab.io/projects"},
+            {"name": "og:description", "content": "A few of my past and ongoing projects."},
           ]}
         />
         <div className="page-header">

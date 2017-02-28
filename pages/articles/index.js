@@ -17,8 +17,11 @@ export default class Articles extends React.Component {
         <Helmet
           title="Articles"
           meta={[
-            {"name": "description", "content": "Sample"},
-            {"name": "keywords", "content": "sample, something"},
+            {"name": "description", "content": "Articles by meadowlab"},
+            {"name": "keywords", "content": "blog, articles, tech, node, webdev, express, react"},
+            {"name": "og:title", "content": "Articles by meadowlab"},
+            {"name": "og:url", "content": "http://meadowlab.io/articles"},
+            {"name": "og:description", "content": "Articles by meadowlab"},
           ]}
         />
         <div className="page-header">

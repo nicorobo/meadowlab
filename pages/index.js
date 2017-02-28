@@ -12,8 +12,11 @@ export default class Index extends React.Component {
         <Helmet
           title={config.siteTitle}
           meta={[
-            {"name": "description", "content": "Sample"},
-            {"name": "keywords", "content": "sample, something"},
+            {"name": "description", "content": "Hi, my name is Nick and I'm passionate about creating modern web apps!"},
+            {"name": "keywords", "content": "meadowlab"},
+            {"name": "og:title", "content": "meadowlab"},
+            {"name": "og:url", "content": "http://meadowlab.io"},
+            {"name": "og:description", "content": "Hi, my name is Nick and I'm passionate about creating modern web apps!"},
           ]}
         />
         <div className="page-header home-page-header">
