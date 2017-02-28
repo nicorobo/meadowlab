@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconElements, IconThoughts, IconLocation } from './components/Icons'
+import { IconElements, IconThoughts, IconLocation, IconMendeleev } from './components/Icons'
 const color = false;
 
 const projects = [
@@ -26,6 +26,14 @@ const projects = [
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/location-data-generator',
 		icon: <IconLocation color={color}/>
+	},
+	{
+		title: 'Mendeleev',
+		description: 'A virtual periodic table of the elements module.',
+		projectLink: 'https://www.npmjs.com/package/mendeleev',
+		pageLink: null,
+		gitLink: 'https://github.com/nickroberts404/Mendeleev',
+		icon: <IconMendeleev color={color}/>
 	}
 ]
 export default projects;
