@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { prefixLink } from 'gatsby-helpers'
-import { Link } from 'react-router';
+import { Link, IndexLink } from 'react-router';
 
 export default class Footer extends Component {
 	render() {
