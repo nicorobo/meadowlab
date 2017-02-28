@@ -23,7 +23,8 @@ export default class Index extends React.Component {
           <h2 className="page-header-title">Hi, I'm <span>Nick</span>!</h2>
           <div className="intro">
             <p>I'm a software engineer from Austin that has a passion for creating modern web apps.</p>
-            <p>When I'm not programming, you'll find me outdoors climbing, hiking, or playing my synthesizers.</p>
+            <p>When I'm not programming, you'll find me outdoors climbing, hiking, or playing my synthesizers. </p>
+            <p className="intro-emojis">🏞 🌌 🎹</p>
           </div>
         </div>
         <PhotoCollage photos={[
