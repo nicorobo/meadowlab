@@ -37,7 +37,7 @@ const projects = [
 	},
 	{
 		title: 'Mendeleev',
-		description: 'A small library for building compounds and working with element data',
+		description: 'A small library for building compounds and working with element data.',
 		projectLink: 'https://www.npmjs.com/package/mendeleev',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/Mendeleev',
