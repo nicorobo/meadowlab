@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconElements, IconThoughts, IconLocation, IconMendeleev } from './components/Icons'
+import { IconElements, IconThoughts, IconLocation, IconMendeleev, IconDirbook } from './components/Icons'
 const color = false;
 
 const projects = [
@@ -18,6 +18,14 @@ const projects = [
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/thoughtjar',
 		icon: <IconThoughts color={color}/>,
+	},
+	{
+		title: 'Dirbook',
+		description: 'An npm tool that generates and serves mock location data via HTTP. It also provides a map interface to visualize/edit data.',
+		projectLink: 'https://github.com/nickroberts404/location-data-generator',
+		pageLink: null,
+		gitLink: 'https://github.com/nickroberts404/location-data-generator',
+		icon: <IconDirbook color={color}/>
 	},
 	{
 		title: 'Location Data Mocker',
