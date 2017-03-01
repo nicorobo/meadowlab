@@ -21,10 +21,10 @@ const projects = [
 	},
 	{
 		title: 'Dirbook',
-		description: 'An npm tool that generates and serves mock location data via HTTP. It also provides a map interface to visualize/edit data.',
-		projectLink: 'https://github.com/nickroberts404/location-data-generator',
+		description: 'A CLI enables users to save, open, and copy directories. Dirbook can also manage aliases for saved directories for quick access.',
+		projectLink: 'https://www.npmjs.com/package/dirbook',
 		pageLink: null,
-		gitLink: 'https://github.com/nickroberts404/location-data-generator',
+		gitLink: 'https://github.com/nickroberts404/dirbook',
 		icon: <IconDirbook color={color}/>
 	},
 	{
@@ -37,7 +37,7 @@ const projects = [
 	},
 	{
 		title: 'Mendeleev',
-		description: 'A virtual periodic table of the elements module.',
+		description: 'A small library for building compounds and working with element data',
 		projectLink: 'https://www.npmjs.com/package/mendeleev',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/Mendeleev',
