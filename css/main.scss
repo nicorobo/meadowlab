@@ -10,7 +10,7 @@
 @import 'modules/resume.scss';
 @import 'modules/footer.scss';
 
-html { height: 100%; }
+html { height: 100%; overflow-y: scroll; }
 
 .container-main {
 	display: flex;
