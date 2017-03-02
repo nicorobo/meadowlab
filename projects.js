@@ -21,18 +21,18 @@ const projects = [
 	},
 	{
 		title: 'Dirbook',
-		description: 'A CLI enables users to save, open, and copy directories. Dirbook can also manage aliases for saved directories for quick access.',
+		description: 'A CLI that enables users to save, open, and copy directories. Dirbook can also manage aliases for saved directories for quick access.',
 		projectLink: 'https://www.npmjs.com/package/dirbook',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/dirbook',
 		icon: <IconDirbook color={color}/>
 	},
 	{
-		title: 'Location Data Mocker',
-		description: 'An npm tool that generates and serves mock location data via HTTP. It also provides a map interface to visualize/edit data.',
-		projectLink: 'https://github.com/nickroberts404/location-data-generator',
+		title: 'Mirageo',
+		description: 'A library for creating mock location data, optionally within a bounding box/polygon.',
+		projectLink: 'https://www.npmjs.com/package/mirageo',
 		pageLink: null,
-		gitLink: 'https://github.com/nickroberts404/location-data-generator',
+		gitLink: 'https://github.com/nickroberts404/mirageo',
 		icon: <IconLocation color={color}/>
 	},
 	{

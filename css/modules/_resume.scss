@@ -80,6 +80,11 @@
 		font-weight: bold;
 		color: $primary-color;
 	}
+	.section-body {
+		a {
+			font-style: italic;
+		}
+	}
 
 	.subsection {
 		margin-left: 2rem;
