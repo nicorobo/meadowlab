@@ -21,19 +21,12 @@
 	}
 
 	ul {
-	    display: table;
 		margin-bottom: 2rem;
+		padding-left: 2.5rem;
 	}
-
 	ul > li {
-	    display: table-row;
-	    text-indent: 10px;
-	}
-
-	ul > li::before {
-		content: '•  ';
-	    display: table-cell; /* aha! */
-	    text-align: right;
+	    list-style-type: disc;
+	    list-style-position: outside;
 	}
 
 	header {
