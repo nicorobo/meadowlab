@@ -52,6 +52,7 @@
 
 	.personal-info {
 		flex: 1;
+		padding-top: 3px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
@@ -105,5 +106,6 @@
 		}
 		.vis-small { display: block; }
 		.vis-large { display: none; }
+		.personal-info { justify-content: flex-end; }
 	}
 }
