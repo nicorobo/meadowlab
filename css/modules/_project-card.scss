@@ -30,6 +30,9 @@
 	padding-left: 15px;
 	flex-direction: column;
 	justify-content: center;
+	a {
+		text-decoration: none;
+	}
 	@media($bp-smaller-than-phablet) {
 		align-items: center;
 		padding-left: 0;

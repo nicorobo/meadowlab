@@ -37,7 +37,7 @@ const projects = [
 	},
 	{
 		title: 'Mendeleev',
-		description: 'A small library for building compounds and working with element data. <b>PeriodicTable</b> acts as a wrapper around a JSON file detailing all of the elements and their charecteristics. <b>Compound</b> is responsible for parsing and formatting compound notation, as well as performing the mass/mass percentage calculations.',
+		description: 'A small library for building compounds and working with element data. <b>PeriodicTable</b> acts as a wrapper around a JSON file detailing all of the elements and their charecteristics. <b>Compound</b> is responsible for parsing and formatting compound notation, as well as performing the mass/percentage calculations.',
 		projectLink: 'https://www.npmjs.com/package/mendeleev',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/Mendeleev',
