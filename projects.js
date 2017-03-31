@@ -21,7 +21,7 @@ const projects = [
 	},
 	{
 		title: 'Dirbook',
-		description: 'A CLI that enables users to save, open, and copy directories. Dirbook can optionaly manage aliases for saved directories in <code>.bashrc</code>. I use this a lot for saving starter projects to copy later, and for hopping around between my projects quickly.',
+		description: 'A CLI that enables users to save, open, and copy directories. Dirbook can optionally manage aliases for saved directories in <code>.bashrc</code>. I use this a lot for saving starter projects to copy later, and for hopping around between my projects quickly.',
 		projectLink: 'https://www.npmjs.com/package/dirbook',
 		pageLink: null,
 		gitLink: 'https://github.com/nickroberts404/dirbook',
